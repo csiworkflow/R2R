@@ -1,0 +1,17 @@
+*~
+*#
+*.pot
+/Capfile
+/config
+/app/tmp
+/app/Config
+/app/webroot/files
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+/build*
+/dist
+.DS_Store
+/tags
+/r.php
+/recipe.php

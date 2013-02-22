@@ -1,0 +1,1 @@
+<?php echo $this->Html->link(__d('import_default', 'Import Default'), array('controller' => 'import_defaults', 'action' => 'import', 'plugin' => 'import_default')); ?>

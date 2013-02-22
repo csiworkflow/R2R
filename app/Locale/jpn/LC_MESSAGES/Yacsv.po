@@ -1,0 +1,37 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-13 14:51+0900\n"
+"PO-Revision-Date: 2013-02-13 15:17+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Yacsv/Lib/Error/YacsvException.php:13
+msgid "YacsvException"
+msgstr "システムエラー：CSVインポートエラー"
+
+msgid "Yacsv: Invalid Settings"
+msgstr "システムエラー：設定が不正です"
+
+msgid "Yacsv: No Upload CSV"
+msgstr "CSVファイルをアップロードしてください"
+
+msgid "Yacsv: CSV Import Error"
+msgstr "CSVインポートに失敗しました"
+
+msgid "Yacsv: Invalid Extension"
+msgstr "ファイルが不正です"
+
+msgid "Yacsv: Invalid Line Format"
+msgstr "行のフォーマットが不正です"
+
+msgid "Yacsv: Temp File Remove Error"
+msgstr "システムエラー：テンポラリファイルの削除に失敗しました"

@@ -1,0 +1,6 @@
+{
+    "name": "Yalog",
+    "require": {
+        "fluent/logger": "v0.3.6"
+    }
+}

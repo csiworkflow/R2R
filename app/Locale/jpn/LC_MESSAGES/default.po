@@ -1,0 +1,3353 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-22 16:20+0900\n"
+"PO-Revision-Date: 2013-02-22 18:52+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Config/bootstrap.php:201
+#: View/Articles/index.ctp:78
+msgid "Status Type Open"
+msgstr "OPENステータス"
+
+#: Config/bootstrap.php:202
+msgid "Status Type Close"
+msgstr "CLOSEステータス"
+
+#: Config/bootstrap.php:211
+msgid "Article Status Notouch"
+msgstr "未着手"
+
+#: Config/bootstrap.php:215
+msgid "Article Status Complete"
+msgstr "終了"
+
+#: Config/bootstrap.php:219;287
+msgid "Author Policy OK And Upload"
+msgstr "OK(ファイルあり)"
+
+#: Config/bootstrap.php:223;286
+msgid "Author Policy OK"
+msgstr "OK"
+
+#: Config/bootstrap.php:227;288
+msgid "Author Policy NG"
+msgstr "NG"
+
+#: Config/bootstrap.php:263
+msgid "Green"
+msgstr ""
+
+#: Config/bootstrap.php:264
+msgid "Blue"
+msgstr ""
+
+#: Config/bootstrap.php:265
+msgid "Yellow"
+msgstr ""
+
+#: Config/bootstrap.php:266
+msgid "White"
+msgstr ""
+
+#: Config/bootstrap.php:267
+msgid "Gray"
+msgstr ""
+
+#: Config/bootstrap.php:271
+msgid "Description Green"
+msgstr "査読前・査読後のどちらでもよい"
+
+#: Config/bootstrap.php:272
+msgid "Description Blue"
+msgstr "査読後の論文のみ認める"
+
+#: Config/bootstrap.php:273
+msgid "Description Yellow"
+msgstr "査読前の論文のみ認める"
+
+#: Config/bootstrap.php:274
+msgid "Description White"
+msgstr "リポジトリへの保存を認めていない"
+
+#: Config/bootstrap.php:275
+msgid "Description Gray"
+msgstr "検討中・非公開・無回答・その他"
+
+#: Config/bootstrap.php:298
+msgid "Request Method Tel"
+msgstr "電話"
+
+#: Config/bootstrap.php:299
+msgid "Request Method Fax"
+msgstr "FAX"
+
+#: Config/bootstrap.php:300
+msgid "Request Method Email"
+msgstr "メール"
+
+#: Config/bootstrap.php:301
+msgid "Request Method Doc"
+msgstr "文書"
+
+#: Config/bootstrap.php:302
+msgid "Request Method Other"
+msgstr "その他"
+
+#: Config/bootstrap.php:309
+#: Plugin/ExportDefault/Controller/ExportDefaultsController.php:105
+msgid "Coauthor Flg Disable"
+msgstr "無"
+
+#: Config/bootstrap.php:310
+#: Plugin/ExportDefault/Controller/ExportDefaultsController.php:105
+msgid "Coauthor Flg Enable"
+msgstr "有"
+
+#: Config/bootstrap.php:438
+msgid "Publisher Open File Version Disabled"
+msgstr "NG"
+
+#: Config/bootstrap.php:439
+msgid "Publisher Open File Version Preprint"
+msgstr "査読前原稿"
+
+#: Config/bootstrap.php:440
+msgid "Publisher Open File Version Author"
+msgstr "著者最終稿"
+
+#: Config/bootstrap.php:441
+msgid "Publisher Open File Version Publisher"
+msgstr "出版社版"
+
+#: Config/bootstrap.php:442
+msgid "Publisher Open File Version Unclear"
+msgstr "不明"
+
+#: Config/bootstrap.php:450
+msgid "Btn Display Type All"
+msgstr "全て表示する"
+
+#: Config/bootstrap.php:451
+msgid "Btn Display Type OK And NG"
+msgstr "許諾OK(本文アップロードなし)ボタンとと許諾NGボタンのみ表示する"
+
+#: Config/bootstrap.php:452
+msgid "Btn Display Type Upload And NG"
+msgstr "許諾OK(本文アップロードあり)ボタンとと許諾NGボタンのみ表示する"
+
+#: Controller/ArticlesController.php:122
+msgid "Author Policy Not Null"
+msgstr "許諾可否回答済み"
+
+#: Controller/ArticlesController.php:207
+msgid "The %s has been uploaded"
+msgstr "%sをアップロードしました"
+
+#: Controller/ArticlesController.php:207
+#: View/Articles/_form.ctp:307
+#: View/Articles/register_ok_and_upload.ctp:16
+#: View/Articles/upload.ctp:11
+msgid "File"
+msgstr "ファイル"
+
+#: Controller/ArticlesController.php:298
+#: Plugin/Routine/Controller/RoutineController.php:72
+msgid "The %s has been created"
+msgstr "%sを登録しました"
+
+#: Controller/ArticlesController.php:298
+msgid "Comment"
+msgstr "コメント"
+
+#: Controller/JournalsController.php:52
+#: Plugin/ImportDefault/Controller/ImportDefaultsController.php:48;53
+msgid "Invalid header"
+msgstr "ヘッダ情報が不正です"
+
+#: Controller/JournalsController.php:82
+msgid "The Journals has been imported"
+msgstr "雑誌情報をインポートしました"
+
+#: Controller/PageContentsController.php:28
+#: Plugin/BulkStatusChange/Controller/BulkStatusChangesController.php:64
+#: Plugin/Routine/Controller/RoutineController.php:118
+msgid "The %s has been modified"
+msgstr "%sを編集しました"
+
+#: Controller/PageContentsController.php:28
+msgid "PageContent"
+msgstr "ページ"
+
+#: Model/AppModel.php:195
+msgid "Validation Error: invalidStatus"
+msgstr "入力ステータスが不正です"
+
+#: Model/AppModel.php:196
+msgid "Validation Error: isList"
+msgstr "入力値が不正です"
+
+#: Model/AppModel.php:197
+msgid "Validation Error: issn"
+msgstr "ISSNのフォーマットが不正です"
+
+#: Model/AppModel.php:198
+msgid "Validation Error: isUniqueIssn"
+msgstr "ISSN＋巻＋号＋開始ページが重複しています"
+
+#: Model/AuthorStatus.php:57;72;89
+#: Model/User.php:60
+#: Plugin/DebugMemo/Model/DebugMemo.php:11
+#: Plugin/Routine/Controller/RoutineController.php:163
+#: Plugin/Routine/Model/RoutineModel.php:14;51;78
+msgid "Invalid Access"
+msgstr "不正なアクセスです"
+
+#: Model/AuthorStatus.php:96
+msgid "Status Min Error"
+msgstr "ステータスは各タイプごとに1つずつ必要です"
+
+#: Model/AuthorStatus.php:101
+msgid "Default Status can not delete"
+msgstr "初期ステータスは削除できません"
+
+#: Model/User.php:48
+#: Plugin/Routine/Model/RoutineModel.php:35
+msgid "Could not save, please check your inputs."
+msgstr "登録ができませんでした。入力項目を確認してください"
+
+#: Plugin/BulkStatusChange/Controller/BulkStatusChangesController.php:22
+msgid "Set Search Conditions"
+msgstr "検索で案件を絞り込んでください"
+
+#: Plugin/BulkStatusChange/View/Elements/menu.ctp:10
+#: View/ArticleHistories/_form.ctp:298
+#: View/ArticleHistories/index.ctp:22
+#: View/Articles/_form.ctp:322
+#: View/Articles/index.ctp:24;129
+#: View/AuthorStatuses/add.ctp:6
+#: View/AuthorStatuses/edit.ctp:6
+#: View/AuthorStatuses/index.ctp:5;33
+msgid "AuthorStatus"
+msgstr "著者ステータス"
+
+#: Plugin/BulkStatusChange/View/Elements/menu.ctp:16
+#: View/ArticleHistories/_form.ctp:301
+#: View/ArticleHistories/index.ctp:23
+#: View/Articles/_form.ctp:325
+#: View/Articles/index.ctp:32;130
+#: View/AuthorStatuses/index.ctp:39;65
+#: View/PublisherStatuses/add.ctp:6
+#: View/PublisherStatuses/edit.ctp:6
+msgid "PublisherStatus"
+msgstr "出版社ステータス"
+
+#: Plugin/BulkStatusChange/View/Elements/menu.ctp:22
+#: View/ArticleHistories/_form.ctp:304
+#: View/ArticleHistories/index.ctp:24
+#: View/Articles/_form.ctp:328
+#: View/Articles/index.ctp:40;131
+#: View/AuthorStatuses/index.ctp:71;96
+#: View/CoauthorStatuses/add.ctp:6
+#: View/CoauthorStatuses/edit.ctp:6
+msgid "CoauthorStatus"
+msgstr "共著者ステータス"
+
+#: Plugin/BulkStatusChange/View/Elements/menu.ctp:36
+msgid "Change"
+msgstr "変更"
+
+#: Plugin/Cakeplus/Model/Behavior/ValidationErrorI18nBehavior.php:97
+msgid "Invalid Email address."
+msgstr ""
+
+#: Plugin/Cakeplus/Model/Behavior/ValidationErrorI18nBehavior.php:98
+msgid "Between %2$d and %3$d characters."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:51
+msgid "Hidef Environment"
+msgstr ""
+
+#: Plugin/DebugMemo/View/DebugMemos/index.ctp:4
+#: View/ArticleHistories/index.ctp:14
+#: View/Articles/index.ctp:122
+#: View/CoauthorStatuses/index.ctp:6
+#: View/DocumentTemplates/index.ctp:10
+#: View/Journals/index.ctp:19
+#: View/PublisherStatuses/index.ctp:6
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/DebugMemo/View/DebugMemos/update.ctp:15
+msgid "Update Memo"
+msgstr ""
+
+#: Plugin/Exception/Lib/Error/ExceptionException.php:10
+msgid "Exception Error."
+msgstr ""
+
+#: Plugin/Exception/Lib/Error/InvalidParameterException.php:13
+msgid "Invalid Parameter Error."
+msgstr ""
+
+#: Plugin/Exception/Lib/Error/ValidationException.php:13
+#: Plugin/Routine/Lib/Error/ValidationException.php:11
+msgid "Validation Error."
+msgstr "入力項目を確認してください"
+
+#: Plugin/ExportDefault/Controller/ExportDefaultsController.php:63
+#: View/ArticleHistories/_form.ctp:281;285
+#: View/ArticleHistories/index.ctp:26
+#: View/Articles/_form.ctp:302
+#: View/Articles/index.ctp:56;135
+msgid "File Status"
+msgstr "本文アップロード状況"
+
+#: Plugin/ExportDefault/Controller/ExportDefaultsController.php:122
+#: View/ArticleHistories/index.ctp:52
+#: View/Articles/_article_info.ctp:60
+#: View/Articles/index.ctp:59;167
+msgid "Uploaded"
+msgstr "アップロード済み"
+
+#: Plugin/ExportDefault/Controller/ExportDefaultsController.php:124
+#: View/Articles/_article_info.ctp:62
+#: View/Articles/index.ctp:59
+msgid "No File"
+msgstr "未アップロード"
+
+#: Plugin/ExportDefault/View/Elements/menu.ctp:14
+msgid "Export"
+msgstr "エクスポート"
+
+#: Plugin/Fatty/View/Elements/diff.ctp:7
+msgid "blame"
+msgstr ""
+
+#: Plugin/Fatty/View/Elements/diff.ctp:8
+#: Plugin/Fatty/View/Fatty/blame.ctp:4
+msgid "history"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/commit.ctp:2
+msgid "Commit"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/commit_logs.ctp:24
+#: Plugin/Fatty/View/Fatty/commits.ctp:41
+#: Plugin/Fatty/View/Fatty/index.ctp:41
+msgid "Next"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/commits.ctp:2
+#: Plugin/Fatty/View/Fatty/index.ctp:2
+msgid "Commit History"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/commits.ctp:27
+#: Plugin/Fatty/View/Fatty/index.ctp:27
+msgid "<< prev"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/commits.ctp:33
+#: Plugin/Fatty/View/Fatty/index.ctp:33
+msgid "next >>"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/diff.ctp:2
+msgid "Diff"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/svn.ctp:2
+msgid "Commit History: SVN"
+msgstr ""
+
+#: Plugin/Fatty/View/Fatty/tree.ctp:2
+msgid "File tree"
+msgstr ""
+
+#: Plugin/Fatty/View/Layouts/default.ctp:6;29
+msgid "Fatty: Git + Cake"
+msgstr ""
+
+#: Plugin/Fatty/View/Layouts/default.ctp:40
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: Plugin/Filebinder/Controller/FilebinderController.php:27;31;64
+msgid "Invalid access"
+msgstr ""
+
+#: Plugin/Filebinder/Model/Behavior/BindableBehavior.php:145
+msgid "Validation Error: File Upload Error"
+msgstr "ファイルアップロードに失敗しました"
+
+#: Plugin/FilterLocal/Model/FilterLocal.php:69
+#: View/Journals/view.ctp:61
+msgid "Publisher Contact Email"
+msgstr "連絡先_メールアドレス"
+
+#: Plugin/FilterLocal/Model/FilterLocal.php:70
+#: View/Journals/view.ctp:71
+msgid "Publisher Contact Address"
+msgstr "連絡先_住所"
+
+#: Plugin/FilterLocal/Model/FilterLocal.php:71
+#: View/Journals/view.ctp:76
+msgid "Publisher Contact Tel No"
+msgstr "連絡先_電話番号"
+
+#: Plugin/FilterLocal/Model/FilterLocal.php:72
+#: View/Journals/view.ctp:81
+msgid "Publisher Contact Fax No"
+msgstr "連絡先_FAX番号"
+
+#: Plugin/FilterScpj/Model/FilterScpj.php:53
+msgid "Invalid XML: scpjcolour"
+msgstr ""
+
+#: Plugin/ImportDefault/Controller/ImportDefaultsController.php:83
+msgid "The articles has been imported"
+msgstr "案件をインポートしました"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:3
+msgid "CSV Import"
+msgstr "CSVインポート"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:11
+#: View/Journals/import.ctp:11
+msgid "Follow line has not been imported."
+msgstr "下記の行はインポートされませんでした"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:16
+#: View/Journals/import.ctp:16
+msgid "Line Number"
+msgstr "行数"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:16
+#: View/Journals/import.ctp:16
+msgid "Exclude header"
+msgstr "ヘッダを含まない"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:19
+#: View/Journals/import.ctp:19
+msgid "Validation Fields"
+msgstr "エラー項目"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:22
+#: View/Journals/import.ctp:22
+msgid "Line Info"
+msgstr "行情報"
+
+#: Plugin/ImportDefault/View/ImportDefaults/import.ctp:57
+#: View/Journals/import.ctp:57
+msgid "Import"
+msgstr "インポート"
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:111
+msgid "Plugin name to be used"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:115
+msgid "Force 'generate' to compare all tables."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:119
+msgid "Set db config <config>. Uses 'default' if none is specified."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:124
+msgid "Disables automatic creation of migrations table and running any internal plugin migrations"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:126
+msgid "Displays a status of all plugin and app migrations."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:128
+msgid "Run a migration to given direction or version."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:130
+msgid "Generates a migration file."
+msgstr ""
+
+#: Plugin/Po/Console/Command/Task/PoMergeTask.php:95;130
+msgid "Processing %s..."
+msgstr ""
+
+#: Plugin/Po/Console/Command/Task/PoMergeTask.php:154
+msgid "Merging ..."
+msgstr ""
+
+#: Plugin/Routine/Controller/RoutineController.php:168
+msgid "The %s has been deleted"
+msgstr "%sを削除しました"
+
+#: Plugin/Routine/Controller/RoutineController.php:204
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:10
+msgid "Set theme to place Bootstrap files in."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:15
+msgid "Set file output to webroot Theme dir (use with theme option)."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:22
+msgid "TwitterBootstrap Copy Shell Help."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:29
+msgid "Copies Less, Js & Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:31
+msgid "files will be placed in webroot of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:39
+msgid "Copies Less source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:41
+msgid "files will be placed in webroot/css/lib/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:49
+msgid "Copies Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:51
+msgid "files will be placed in webroot/img/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:59
+msgid "Copies Js source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:61
+msgid "files will be placed in webroot/js/lib of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:108
+msgid "Success."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:110
+msgid "Error!"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:18
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:24
+msgid "Alert notice message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:27
+msgid "Alert success message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:31
+msgid "Alert error message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:6
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:51
+msgid "CakePHP"
+msgstr ""
+
+#: View/ArticleHistories/_form.ctp:91
+#: View/Articles/_form.ctp:94
+msgid "Option"
+msgstr "付随情報"
+
+#: View/ArticleHistories/_form.ctp:293
+#: View/Articles/_form.ctp:317
+msgid "Status"
+msgstr "ステータス"
+
+#: View/ArticleHistories/add.ctp:5
+#: View/Articles/add.ctp:2
+#: View/AuthorStatuses/add.ctp:6
+#: View/AuthorStatuses/index.ctp:33;65;96
+#: View/CoauthorStatuses/add.ctp:6
+#: View/DocumentTemplates/add.ctp:4
+#: View/Elements/nav.ctp:10;19;28;37
+#: View/Journals/add.ctp:6
+#: View/PageContents/add.ctp:5
+#: View/PublisherStatuses/add.ctp:6
+msgid "Add %s"
+msgstr "%s新規登録"
+
+#: View/ArticleHistories/add.ctp:5
+#: View/ArticleHistories/edit.ctp:5
+msgid "Article History"
+msgstr ""
+
+#: View/ArticleHistories/add.ctp:104
+#: View/ArticleHistories/edit.ctp:105
+#: View/Articles/_author_comment_form.ctp:7
+#: View/Articles/add.ctp:7
+#: View/Articles/edit.ctp:16
+#: View/AuthorStatuses/add.ctp:8
+#: View/AuthorStatuses/edit.ctp:11
+#: View/CoauthorStatuses/add.ctp:8
+#: View/CoauthorStatuses/edit.ctp:11
+#: View/DocumentTemplates/add.ctp:6
+#: View/DocumentTemplates/edit.ctp:7
+#: View/Journals/add.ctp:8
+#: View/Journals/edit.ctp:9
+#: View/PageContents/add.ctp:21
+#: View/PageContents/btn_label.ctp:15
+#: View/PageContents/edit.ctp:22
+#: View/PageContents/ng_complete.ctp:12
+#: View/PageContents/ok_complete.ctp:12
+#: View/PageContents/register.ctp:12
+#: View/PageContents/upload.ctp:12
+#: View/PageContents/upload_complete.ctp:12
+#: View/PublisherStatuses/add.ctp:8
+#: View/PublisherStatuses/edit.ctp:11
+#: View/Users/add.ctp:8
+#: View/Users/edit.ctp:12
+#: View/Users/init.ctp:12
+msgid "Submit"
+msgstr "登録"
+
+#: View/ArticleHistories/add.ctp:111
+#: View/ArticleHistories/edit.ctp:112
+#: View/Articles/index.ctp:139
+#: View/AuthorStatuses/index.ctp:11;45;76
+#: View/AuthorStatuses/view.ctp:50
+#: View/CoauthorStatuses/index.ctp:19;45
+#: View/CoauthorStatuses/view.ctp:50
+#: View/DocumentTemplates/index.ctp:19
+#: View/Journals/index.ctp:32
+#: View/PageContents/add.ctp:28
+#: View/PageContents/edit.ctp:29
+#: View/PageContents/view.ctp:90
+#: View/PublisherStatuses/index.ctp:19;45
+#: View/PublisherStatuses/view.ctp:50
+#: View/Users/index.ctp:17
+msgid "Actions"
+msgstr "&nbsp;"
+
+#: View/ArticleHistories/add.ctp:112
+#: View/ArticleHistories/edit.ctp:114
+#: View/ArticleHistories/index.ctp:3
+#: View/Articles/index.ctp:4
+#: View/AuthorStatuses/index.ctp:5;39;71
+#: View/AuthorStatuses/view.ctp:53
+#: View/CoauthorStatuses/index.ctp:3
+#: View/CoauthorStatuses/view.ctp:53
+#: View/DocumentTemplates/index.ctp:3
+#: View/Elements/nav.ctp:7;16;26
+#: View/Journals/index.ctp:3
+#: View/PageContents/add.ctp:29
+#: View/PageContents/edit.ctp:31
+#: View/PageContents/view.ctp:93
+#: View/PublisherStatuses/index.ctp:3
+#: View/PublisherStatuses/view.ctp:53
+#: View/Users/index.ctp:2
+msgid "List %s"
+msgstr "%s一覧"
+
+#: View/ArticleHistories/add.ctp:112
+#: View/ArticleHistories/edit.ctp:114
+msgid "Article Histories"
+msgstr "案件履歴管理"
+
+#: View/ArticleHistories/edit.ctp:5
+#: View/Articles/edit.ctp:9
+#: View/AuthorStatuses/edit.ctp:6
+#: View/AuthorStatuses/view.ctp:51
+#: View/CoauthorStatuses/edit.ctp:6
+#: View/CoauthorStatuses/view.ctp:51
+#: View/DocumentTemplates/edit.ctp:4
+#: View/Journals/edit.ctp:6
+#: View/PageContents/edit.ctp:5
+#: View/PageContents/view.ctp:91
+#: View/PublisherStatuses/edit.ctp:6
+#: View/PublisherStatuses/view.ctp:51
+msgid "Edit %s"
+msgstr "%s編集"
+
+#: View/ArticleHistories/edit.ctp:113
+#: View/Articles/index.ctp:184
+#: View/AuthorStatuses/index.ctp:27;59;90
+#: View/CoauthorStatuses/index.ctp:34
+#: View/DocumentTemplates/index.ctp:32
+#: View/Journals/index.ctp:62
+#: View/PageContents/edit.ctp:30
+#: View/PublisherStatuses/index.ctp:34
+#: View/Users/edit.ctp:6
+#: View/Users/index.ctp:35
+msgid "Delete"
+msgstr "削除"
+
+#: View/ArticleHistories/edit.ctp:113
+#: View/Articles/index.ctp:184
+#: View/AuthorStatuses/index.ctp:27;59;90
+#: View/AuthorStatuses/view.ctp:52
+#: View/CoauthorStatuses/index.ctp:34
+#: View/CoauthorStatuses/view.ctp:52
+#: View/DocumentTemplates/index.ctp:32
+#: View/Journals/index.ctp:62
+#: View/PageContents/edit.ctp:30
+#: View/PageContents/view.ctp:92
+#: View/PublisherStatuses/index.ctp:34
+#: View/PublisherStatuses/view.ctp:52
+#: View/Users/index.ctp:35
+msgid "Are you sure you want to delete # %s?"
+msgstr "\"%s\"を削除しますか？"
+
+#: View/ArticleHistories/index.ctp:3
+#: View/ArticleHistories/view.ctp:2
+#: View/Articles/view.ctp:5
+msgid "ArticleHistory"
+msgstr "案件操作履歴"
+
+#: View/ArticleHistories/index.ctp:19
+#: View/ArticleHistories/view.ctp:12
+#: View/Articles/view.ctp:15
+msgid "Article Id"
+msgstr "案件ID"
+
+#: View/ArticleHistories/view.ctp:18
+#: View/Articles/view.ctp:21
+#: View/AuthorStatuses/view.ctp:30
+#: View/CoauthorStatuses/view.ctp:30
+#: View/DocumentTemplates/view.ctp:29
+#: View/Journals/view.ctp:111
+#: View/PageContents/view.ctp:80
+#: View/PublisherStatuses/view.ctp:30
+msgid "Modified"
+msgstr "更新日時"
+
+#: View/ArticleHistories/view.ctp:24
+#: View/Elements/nav.ctp:26;28
+#: View/Users/index.ctp:2
+msgid "User"
+msgstr "ユーザ"
+
+#: View/Articles/_form.ctp:46
+msgid "Required"
+msgstr "必須"
+
+#: View/Articles/_form.ctp:168
+#: View/Articles/index.ctp:194
+msgid "Link"
+msgstr ""
+
+#: View/Articles/add.ctp:2
+#: View/Articles/edit.ctp:9
+#: View/Articles/index.ctp:4
+#: View/Articles/view.ctp:9
+#: View/Elements/nav.ctp:7;10
+msgid "Article"
+msgstr "案件"
+
+#: View/Articles/edit.ctp:3
+#: View/CoauthorStatuses/index.ctp:32
+#: View/PublisherStatuses/index.ctp:32
+msgid "View"
+msgstr "詳細"
+
+#: View/Articles/edit.ctp:5;23
+#: View/Articles/index.ctp:186
+#: View/Articles/view.ctp:4;43
+#: View/DocumentTemplates/edit.ctp:4
+#: View/DocumentTemplates/index.ctp:3
+#: View/DocumentTemplates/view.ctp:2
+#: View/Elements/nav.ctp:37
+msgid "DocumentTemplate"
+msgstr "文書テンプレート"
+
+#: View/Articles/edit.ctp:33
+#: View/Elements/help_modal.ctp:10
+#: View/Elements/modal.ctp:13
+msgid "Close"
+msgstr "閉じる"
+
+#: View/Articles/index.ctp:14
+#: View/Journals/index.ctp:15
+msgid "Search"
+msgstr "検索"
+
+#: View/Articles/index.ctp:15
+msgid "Advanced Search"
+msgstr "詳細検索"
+
+#: View/Articles/index.ctp:48
+msgid "Author Policy"
+msgstr "著者_許諾結果"
+
+#: View/Articles/index.ctp:64
+msgid "Publisher Embargo Period"
+msgstr "エンバーゴ満了日"
+
+#: View/Articles/index.ctp:67
+msgid "Period Complete"
+msgstr "期間満了"
+
+#: View/Articles/index.ctp:82
+msgid "Open Articles"
+msgstr "全件数"
+
+#: View/Articles/index.ctp:91
+msgid "Open And Author Policy Saved"
+msgstr "著者許諾可否登録済み"
+
+#: View/Articles/index.ctp:100
+msgid "Open And File Uploaded"
+msgstr "本文アップロード済み"
+
+#: View/Articles/index.ctp:109
+msgid "Open And Embargo Complete"
+msgstr "エンバーゴ期間満了"
+
+#: View/Articles/index.ctp:175;179
+msgid "Action"
+msgstr "操作"
+
+#: View/Articles/index.ctp:182
+#: View/Articles/view.ctp:3
+#: View/AuthorStatuses/index.ctp:26;58;89
+#: View/CoauthorStatuses/index.ctp:33
+#: View/DocumentTemplates/index.ctp:31
+#: View/Journals/index.ctp:61
+#: View/PublisherStatuses/index.ctp:33
+#: View/Users/index.ctp:34
+msgid "Edit"
+msgstr "編集"
+
+#: View/Articles/index.ctp:183
+#: View/Articles/upload.ctp:1
+msgid "Upload Files"
+msgstr "本文ファイルアップロード"
+
+#: View/Articles/index.ctp:193
+msgid "Aurhor Register URL"
+msgstr "著者許諾確認用URL"
+
+#: View/Articles/register_ok_and_upload.ctp:27
+#: View/Articles/upload.ctp:24
+msgid "Upload"
+msgstr "アップロード"
+
+#: View/Articles/upload.ctp:17
+msgid "Delete File"
+msgstr "ファイルを削除する"
+
+#: View/Articles/view.ctp:27
+#: View/AuthorStatuses/view.ctp:25
+#: View/CoauthorStatuses/view.ctp:25
+#: View/DocumentTemplates/view.ctp:24
+#: View/Journals/view.ctp:106
+#: View/PageContents/view.ctp:75
+#: View/PublisherStatuses/view.ctp:25
+msgid "Created"
+msgstr "登録日時"
+
+#: View/AuthorStatuses/_form.ctp:2
+#: View/AuthorStatuses/index.ctp:9;43;74
+#: View/CoauthorStatuses/_form.ctp:2
+#: View/PublisherStatuses/_form.ctp:2
+msgid "Status Name"
+msgstr "ステータス名"
+
+#: View/AuthorStatuses/_form.ctp:3
+#: View/AuthorStatuses/index.ctp:10;44;75
+#: View/CoauthorStatuses/_form.ctp:3
+#: View/PublisherStatuses/_form.ctp:3
+msgid "Status Type"
+msgstr "ステータスタイプ"
+
+#: View/AuthorStatuses/index.ctp:18;52;83
+msgid "Default Open Status"
+msgstr "初期OPENステータス"
+
+#: View/AuthorStatuses/view.ctp:3;51;52;54
+msgid "Author Status"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:5
+#: View/CoauthorStatuses/view.ctp:5
+#: View/DocumentTemplates/view.ctp:4
+#: View/Journals/view.ctp:4
+#: View/PageContents/view.ctp:5
+#: View/PublisherStatuses/view.ctp:5
+msgid "Id"
+msgstr "ID"
+
+#: View/AuthorStatuses/view.ctp:10
+#: View/CoauthorStatuses/view.ctp:10
+#: View/PublisherStatuses/view.ctp:10
+#: View/Users/_form.ctp:20
+msgid "Name"
+msgstr "ユーザ名"
+
+#: View/AuthorStatuses/view.ctp:15
+#: View/CoauthorStatuses/view.ctp:15
+#: View/PublisherStatuses/view.ctp:15
+msgid "Type"
+msgstr "資料種別"
+
+#: View/AuthorStatuses/view.ctp:20
+#: View/CoauthorStatuses/view.ctp:20
+#: View/PublisherStatuses/view.ctp:20
+msgid "Sort"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:35
+#: View/CoauthorStatuses/view.ctp:35
+#: View/PublisherStatuses/view.ctp:35
+msgid "Delete Flg"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:40
+#: View/CoauthorStatuses/view.ctp:40
+#: View/PublisherStatuses/view.ctp:40
+msgid "Deleted"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:52
+#: View/CoauthorStatuses/view.ctp:52
+#: View/PageContents/view.ctp:92
+#: View/PublisherStatuses/view.ctp:52
+msgid "Delete %s"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:53
+msgid "Author Statuses"
+msgstr ""
+
+#: View/AuthorStatuses/view.ctp:54
+#: View/CoauthorStatuses/index.ctp:46
+#: View/CoauthorStatuses/view.ctp:54
+#: View/PageContents/view.ctp:94
+#: View/PublisherStatuses/index.ctp:46
+#: View/PublisherStatuses/view.ctp:54
+msgid "New %s"
+msgstr ""
+
+#: View/CoauthorStatuses/index.ctp:3
+#: View/CoauthorStatuses/view.ctp:53
+msgid "Coauthor Statuses"
+msgstr ""
+
+#: View/CoauthorStatuses/index.ctp:46
+#: View/CoauthorStatuses/view.ctp:3;51;52;54
+msgid "Coauthor Status"
+msgstr ""
+
+#: View/DocumentTemplates/_form.ctp:1
+#: View/DocumentTemplates/clip.ctp:6
+#: View/DocumentTemplates/index.ctp:16
+#: View/DocumentTemplates/view.ctp:9
+msgid "Template Name"
+msgstr "テンプレート名"
+
+#: View/DocumentTemplates/add.ctp:4
+msgid "Document Template"
+msgstr "文書テンプレート"
+
+#: View/DocumentTemplates/clip.ctp:1
+msgid "Document Template Clip"
+msgstr "文書テンプレート"
+
+#: View/DocumentTemplates/clip.ctp:14
+msgid "Title"
+msgstr "論文タイトル"
+
+#: View/DocumentTemplates/clip.ctp:22
+msgid "Author Name"
+msgstr "主著者名"
+
+#: View/DocumentTemplates/clip.ctp:30
+msgid "Author Contact Info"
+msgstr "著者連絡先"
+
+#: View/DocumentTemplates/clip.ctp:38
+msgid "Publisher Contact Info"
+msgstr "出版社_連絡先"
+
+#: View/DocumentTemplates/clip.ctp:46
+msgid "Publisher Open File Version"
+msgstr "公開可能バージョン"
+
+#: View/DocumentTemplates/index.ctp:17
+#: View/DocumentTemplates/view.ctp:14
+msgid "Body"
+msgstr "本文"
+
+#: View/Elements/help_modal.ctp:4
+msgid "Help"
+msgstr ""
+
+#: View/Elements/modal.ctp:5
+#: View/Elements/nav.ctp:9
+msgid "Import Articles"
+msgstr "案件インポート"
+
+#: View/Elements/nav.ctp:5
+msgid "Articles"
+msgstr "案件管理"
+
+#: View/Elements/nav.ctp:14
+msgid "Journals"
+msgstr "雑誌管理"
+
+#: View/Elements/nav.ctp:16;19
+#: View/Journals/add.ctp:6
+#: View/Journals/edit.ctp:6
+#: View/Journals/index.ctp:3
+#: View/Journals/view.ctp:2
+msgid "Journal"
+msgstr "雑誌"
+
+#: View/Elements/nav.ctp:18
+#: View/Journals/import.ctp:3
+msgid "Import Journals"
+msgstr "雑誌インポート"
+
+#: View/Elements/nav.ctp:20
+msgid "Export Journals"
+msgstr "雑誌エクスポート"
+
+#: View/Elements/nav.ctp:24
+msgid "Users"
+msgstr "ユーザ管理"
+
+#: View/Elements/nav.ctp:32
+msgid "Settings"
+msgstr "設定"
+
+#: View/Elements/nav.ctp:34
+msgid "Statuses"
+msgstr "ステータス管理"
+
+#: View/Elements/nav.ctp:36
+msgid "DocumentTemplates"
+msgstr "文書テンプレート管理"
+
+#: View/Elements/nav.ctp:39
+#: View/PageContents/index.ctp:3
+msgid "PageContents"
+msgstr "許諾ページ管理"
+
+#: View/Elements/nav.ctp:41
+#: View/Pages/plugins.ctp:2
+msgid "Plugins"
+msgstr "プラグイン管理"
+
+#: View/Elements/nav.ctp:44
+msgid "Logout"
+msgstr "ログアウト"
+
+#: View/Journals/_form.ctp:2
+#: View/Journals/index.ctp:24
+#: View/Journals/view.ctp:14
+msgid "Journal Title"
+msgstr "雑誌名"
+
+#: View/Journals/_form.ctp:5
+#: View/Journals/view.ctp:29
+msgid "Publisher Policy"
+msgstr "ポリシーカラー(DB)"
+
+#: View/Journals/view.ctp:9
+msgid "Publisher"
+msgstr "出版社"
+
+#: View/Journals/view.ctp:19
+msgid "Issn"
+msgstr "ISSN"
+
+#: View/Journals/view.ctp:24
+msgid "Ncid"
+msgstr "NCID"
+
+#: View/Journals/view.ctp:38
+msgid "Policy Open Type Version"
+msgstr "公開可能バージョン"
+
+#: View/Journals/view.ctp:47
+msgid "Publisher Open Condition"
+msgstr "公開条件(DB)"
+
+#: View/Journals/view.ctp:52
+msgid "Publisher Request Method"
+msgstr "出版社_許諾依頼手段"
+
+#: View/Journals/view.ctp:66
+msgid "Publisher Contact Zipcode"
+msgstr "連絡先_郵便番号"
+
+#: View/Journals/view.ctp:86
+msgid "Publisher Remarks"
+msgstr "出版社_備考"
+
+#: View/Journals/view.ctp:91
+msgid "Check Date"
+msgstr "データ確認日"
+
+#: View/Journals/view.ctp:96
+msgid "Publisher Policy Uri"
+msgstr "公開規則URL"
+
+#: View/Journals/view.ctp:101
+msgid "Uri"
+msgstr "WebサイトURL"
+
+#: View/Layouts/default.ctp:6
+msgid "R2R:"
+msgstr ""
+
+#: View/Layouts/default.ctp:53
+msgid "R2R"
+msgstr ""
+
+#: View/PageContents/add.ctp:5
+#: View/PageContents/edit.ctp:5
+#: View/PageContents/view.ctp:3;91;92;94
+msgid "Page Content"
+msgstr ""
+
+#: View/PageContents/add.ctp:29
+#: View/PageContents/edit.ctp:31
+#: View/PageContents/view.ctp:93
+msgid "Page Contents"
+msgstr ""
+
+#: View/PageContents/btn_label.ctp:2
+#: View/PageContents/index.ctp:9
+msgid "Button Labels"
+msgstr "ボタン設定"
+
+#: View/PageContents/index.ctp:10
+#: View/PageContents/register.ctp:2
+msgid "Register Page"
+msgstr "許諾ページ"
+
+#: View/PageContents/index.ctp:11
+#: View/PageContents/upload.ctp:2
+msgid "Register Upload Page"
+msgstr "本文アップロードページ"
+
+#: View/PageContents/index.ctp:12
+#: View/PageContents/upload_complete.ctp:2
+msgid "Register Upload Complete Page"
+msgstr "本文アップロード完了ページ"
+
+#: View/PageContents/index.ctp:13
+#: View/PageContents/ok_complete.ctp:2
+msgid "Register OK Complete Page"
+msgstr "許諾OK(本文アップロードなし)完了ページ"
+
+#: View/PageContents/index.ctp:14
+#: View/PageContents/ng_complete.ctp:2
+msgid "Register NG Complete Page"
+msgstr "許諾NG完了ページ"
+
+#: View/PageContents/view.ctp:10
+msgid "Btn Label Ok And Upload"
+msgstr "許諾OK(本文アップロードあり)ボタン"
+
+#: View/PageContents/view.ctp:15
+msgid "Btn Label Ok"
+msgstr "許諾　OK(本文アップロードなし)ボタン"
+
+#: View/PageContents/view.ctp:20
+msgid "Btn Label Ng"
+msgstr "許諾NGボタン"
+
+#: View/PageContents/view.ctp:25
+msgid "Register Header"
+msgstr "ページ上部文章"
+
+#: View/PageContents/view.ctp:30
+msgid "Register Footer"
+msgstr "ページ下部文章"
+
+#: View/PageContents/view.ctp:35
+msgid "Register Upload Header"
+msgstr "ページ上部文章"
+
+#: View/PageContents/view.ctp:40
+msgid "Register Upload Footer"
+msgstr "ページ下部文章"
+
+#: View/PageContents/view.ctp:45
+msgid "Register Upload Complete Header"
+msgstr "ページ上部文章"
+
+#: View/PageContents/view.ctp:50
+msgid "Register Upload Complete Footer"
+msgstr "ページ下部文章"
+
+#: View/PageContents/view.ctp:55
+msgid "Register Ok Complete Header"
+msgstr "ページ上部文章"
+
+#: View/PageContents/view.ctp:60
+msgid "Register Ok Complete Footer"
+msgstr "ページ下部文章"
+
+#: View/PageContents/view.ctp:65
+msgid "Register Ng Complete Header"
+msgstr "ページ上部文章"
+
+#: View/PageContents/view.ctp:70
+msgid "Register Ng Complete Footer"
+msgstr "ページ下部文章"
+
+#: View/Pages/plugins.ctp:8
+msgid "Import Plugins"
+msgstr "インポートプラグイン"
+
+#: View/Pages/plugins.ctp:14
+msgid "Bulk Plugins"
+msgstr "一括処理プラグイン"
+
+#: View/Pages/plugins.ctp:21
+msgid "Filter Plugins"
+msgstr "フィルタプラグイン"
+
+#: View/PublisherStatuses/index.ctp:3
+#: View/PublisherStatuses/view.ctp:53
+msgid "Publisher Statuses"
+msgstr ""
+
+#: View/PublisherStatuses/index.ctp:46
+#: View/PublisherStatuses/view.ctp:3;51;52;54
+msgid "Publisher Status"
+msgstr ""
+
+#: View/Users/_form.ctp:12
+msgid "Username"
+msgstr "ログインID"
+
+#: View/Users/_form.ctp:30
+msgid "Update Password Flg"
+msgstr "パスワードを変更する"
+
+#: View/Users/_form.ctp:38
+msgid "Password"
+msgstr "パスワード"
+
+#: View/Users/_form.ctp:46
+msgid "Password Confirm"
+msgstr "パスワード(確認)"
+
+#: View/Users/add.ctp:2
+msgid "Add User"
+msgstr "ユーザ新規登録"
+
+#: View/Users/edit.ctp:3
+msgid "Edit User"
+msgstr "ユーザ編集"
+
+#: View/Users/edit.ctp:5
+msgid "Back"
+msgstr "戻る"
+
+#: View/Users/index.ctp:7
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "( 合計 %count% 件 )"
+
+#: View/Users/init.ctp:2
+msgid "System Setup"
+msgstr "システムセットアップ"
+
+#: View/Users/init.ctp:5
+msgid "Please create user account"
+msgstr "初期ユーザアカウントを作成してください"
+
+#: View/Users/login.ctp:4;10
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Author Comment"
+msgstr "著者からのコメント"
+
+msgid "Policy"
+msgstr "ポリシー"
+
+msgid "Open Condition"
+msgstr "公開条件"
+
+msgid "Remarks"
+msgstr "備考"
+
+msgid "Policy Uri"
+msgstr "公開規則URL"
+
+msgid "Input Data was not able to pass validation. Please, try again."
+msgstr ""
+
+msgid "Session timed out."
+msgstr ""
+
+msgid "Bulk Status Change"
+msgstr ""
+
+msgid "-> Testing :url"
+msgstr ""
+
+msgid "Total Requests made: :requests"
+msgstr ""
+
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+msgid "DebugKit Benchmark Shell"
+msgstr ""
+
+msgid "\tAllows you to obtain some rough benchmarking statistics \n\tabout a fully qualified URL."
+msgstr ""
+
+msgid "\tUse:"
+msgstr ""
+
+msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
+msgstr ""
+
+msgid "\tParams:"
+msgstr ""
+
+msgid "\t\t-n Number of iterations to perform. Defaults to 10. \n\t\t   Must be an integer."
+msgstr ""
+
+msgid "\t\t-t Maximum total time for all iterations, in seconds. \n\t\t   Defaults to 100. Must be an integer."
+msgstr ""
+
+msgid "\tIf a single iteration takes more than the \n\ttimeout specified, only one request will be made."
+msgstr ""
+
+msgid "\tExample Use:"
+msgstr ""
+
+msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
+msgstr ""
+
+msgid "\tNote that this benchmark does not include browser render time"
+msgstr ""
+
+msgid "Component initialization"
+msgstr ""
+
+msgid "Controller action"
+msgstr ""
+
+msgid "Controller action start"
+msgstr ""
+
+msgid "Processing toolbar state"
+msgstr ""
+
+msgid "Processing toolbar data"
+msgstr ""
+
+msgid "Controller render start"
+msgstr ""
+
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+msgid "App Constants"
+msgstr ""
+
+msgid "CakePHP Constants"
+msgstr ""
+
+msgid "PHP Environment"
+msgstr ""
+
+msgid "Request History"
+msgstr ""
+
+msgid "No previous requests logged."
+msgstr ""
+
+msgid "previous requests available"
+msgstr ""
+
+msgid "Restore to current request"
+msgstr ""
+
+msgid "Included Files"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "There were no log entries made this request"
+msgstr ""
+
+msgid "Request"
+msgstr ""
+
+msgid "No post data."
+msgstr ""
+
+msgid "No querystring data."
+msgstr ""
+
+msgid "Current Route"
+msgstr ""
+
+msgid "Session"
+msgstr ""
+
+msgid "Sql Logs"
+msgstr ""
+
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr ""
+
+msgid "Query Explain:"
+msgstr ""
+
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+msgid "No active database connections"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "Peak Memory Use"
+msgstr ""
+
+msgid "Memory use"
+msgstr ""
+
+msgid "Timers"
+msgstr ""
+
+msgid "%s (ms)"
+msgstr ""
+
+msgid "Total Request Time:"
+msgstr ""
+
+msgid "Time in ms"
+msgstr ""
+
+msgid "Graph"
+msgstr ""
+
+msgid "View Variables"
+msgstr ""
+
+msgid "Rendering View"
+msgstr ""
+
+msgid "Rendering %s"
+msgstr ""
+
+msgid "View render complete"
+msgstr ""
+
+msgid "Explain"
+msgstr ""
+
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+msgid "No markup errors found"
+msgstr ""
+
+msgid "maybe slow"
+msgstr ""
+
+msgid "Absolute path or relative to APP."
+msgstr ""
+
+msgid "Po Edit"
+msgstr ""
+
+msgid "[M]erge POT file"
+msgstr ""
+
+msgid "[Q]uit"
+msgstr ""
+
+msgid "What would you like to do?"
+msgstr ""
+
+msgid "You have made an invalid selection. Please choose a command to execute by entering M or Q."
+msgstr ""
+
+msgid "<info>recipe - CakePHP CLI Package Installer - </info>"
+msgstr ""
+
+msgid "<info>recipe install start</info>"
+msgstr ""
+
+msgid "<info>recipe install complete.</info>"
+msgstr ""
+
+msgid "[S]earch Package"
+msgstr ""
+
+msgid "Quit."
+msgstr ""
+
+msgid "You have made an invalid selection. Please choose a command to execute by entering S or Q."
+msgstr ""
+
+msgid "Can not find packages."
+msgstr ""
+
+msgid "Search result"
+msgstr ""
+
+msgid "Install "
+msgstr ""
+
+msgid "You have made an invalid selection. Please choose a command to execute by entering Y, N or Q."
+msgstr ""
+
+msgid "<error>Can not find package.</error>"
+msgstr ""
+
+msgid "<comment>Installing "
+msgstr ""
+
+msgid "<comment>Install "
+msgstr ""
+
+msgid "<error>Invalid installDir option.</error>"
+msgstr ""
+
+msgid "<error>Invalid zip archive.</error>"
+msgstr ""
+
+msgid "Set recipe file"
+msgstr ""
+
+msgid "Memo has been updated"
+msgstr ""
+
+msgid "Import Default"
+msgstr "CSVインポート(デフォルトインポートプラグイン)"
+
+msgid "Sorry, I can't downgrade. Why would you want that anyways?"
+msgstr ""
+
+msgid "Cake Migration Shell"
+msgstr ""
+
+msgid "Creating table :table."
+msgstr ""
+
+msgid "Dropping table :table."
+msgstr ""
+
+msgid "Renaming table :old_name to :new_name."
+msgstr ""
+
+msgid "Adding field :field to :table."
+msgstr ""
+
+msgid "Dropping field :field from :table."
+msgstr ""
+
+msgid "Changing field :field from :table."
+msgstr ""
+
+msgid "Renaming field :old_name to :new_name on :table."
+msgstr ""
+
+msgid "Adding index :index to :table."
+msgstr ""
+
+msgid "Dropping index :index from :table."
+msgstr ""
+
+msgid "No migrations available."
+msgstr ""
+
+msgid "Running migrations:"
+msgstr ""
+
+msgid "All migrations have completed."
+msgstr ""
+
+msgid "An error occurred when processing the migration:"
+msgstr ""
+
+msgid "Migration: %s"
+msgstr ""
+
+msgid "Error: %s"
+msgstr ""
+
+msgid "Do you want to mark the migration as successful?. [y]es or [a]bort."
+msgstr ""
+
+msgid "Not a valid migration version."
+msgstr ""
+
+msgid "Please, choose what version you want to migrate to. [q]uit or [c]lean."
+msgstr ""
+
+msgid "Do you want compare the schema.php file to the database?"
+msgstr ""
+
+msgid "Comparing schema.php to the database..."
+msgstr ""
+
+msgid "Do you want generate a dump from current database?"
+msgstr ""
+
+msgid "Generating dump from current database..."
+msgstr ""
+
+msgid "Do you want to preview the file before generation?"
+msgstr ""
+
+msgid "Please enter the descriptive name of the migration to generate:"
+msgstr ""
+
+msgid "Migration name (%s) is invalid. It must only contain alphanumeric characters and start with a letter."
+msgstr ""
+
+msgid "Migration name (%s) is invalid. It cannot be longer than 255 characters."
+msgstr ""
+
+msgid "Generating Migration..."
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Do you want update the schema.php file?"
+msgstr ""
+
+msgid "Current version:"
+msgstr ""
+
+msgid "None applied."
+msgstr ""
+
+msgid "Latest version:"
+msgstr ""
+
+msgid "Current migration version:"
+msgstr ""
+
+msgid "Available migrations:"
+msgstr ""
+
+msgid "applied"
+msgstr ""
+
+msgid "not applied"
+msgstr ""
+
+msgid "Migration direction (%s) is not one of valid directions."
+msgstr ""
+
+msgid "Migration action type (%s) is not one of valid actions type."
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "Table \"%s\" already exists in database."
+msgstr ""
+
+msgid "SQL Error: %s"
+msgstr ""
+
+msgid "Table \"%s\" does not exists in database."
+msgstr ""
+
+msgid "Table \"%s\" does not exists."
+msgstr ""
+
+msgid "Field \"%s\" does not exists in \"%s\"."
+msgstr ""
+
+msgid "Field \"%s\" already exists in \"%s\"."
+msgstr ""
+
+msgid "Interrupted when running \"%s\" callback."
+msgstr ""
+
+msgid "Class `%1$s` not found on file `%2$s` for %3$s."
+msgstr ""
+
+msgid "File `%1$s` not found in the %2$s."
+msgstr ""
+
+msgid "Migration Status"
+msgstr ""
+
+msgid "Please correct the errors below."
+msgstr ""
+
+msgid "YacsvException"
+msgstr "システムエラー：CSVインポートエラー"
+
+msgid "Yacsv: Invalid Settings"
+msgstr "システムエラー：設定が不正です"
+
+msgid "Yacsv: No Upload CSV"
+msgstr "CSVファイルをアップロードしてください"
+
+msgid "Yacsv: CSV Import Error"
+msgstr "CSVインポートに失敗しました"
+
+msgid "Yacsv: Invalid Extension"
+msgstr "ファイルが不正です"
+
+msgid "Yacsv: Invalid Line Format"
+msgstr "行のフォーマットが不正です"
+
+msgid "Yacsv: Temp File Remove Error"
+msgstr "システムエラー：テンポラリファイルの削除に失敗しました"
+
+msgid "Validation Error: required"
+msgstr ""
+
+msgid "Validation Error: notEmpty"
+msgstr "必須項目です"
+
+msgid "Validation Error: checkboxCheck"
+msgstr ""
+
+msgid "Validation Error: numeric"
+msgstr ""
+
+msgid "Validation Error: isUnique"
+msgstr "項目内容が他のデータと重複しています"
+
+msgid "Validation Error: date"
+msgstr ""
+
+msgid "Validation Error: compare2fieldsPassword"
+msgstr "確認のために入力されたパスワードと一致していません"
+
+msgid "Validation Error: zenkakuOnly"
+msgstr ""
+
+msgid "Validation Error: katakanaOnly"
+msgstr ""
+
+msgid "Validation Error: katakanaAndSpace"
+msgstr ""
+
+msgid "Validation Error: notEmptyFile"
+msgstr "ファイルを選択してください"
+
+msgid "Validation Error: checkExtension"
+msgstr "ファイル種類が不正です"
+
+msgid "Validation Error: checkFileSize"
+msgstr "ファイルサイズが上限を超えています"
+
+msgid "Error"
+msgstr ""
+
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+msgid "Read the changelog"
+msgstr ""
+
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+msgid "Your tmp directory is writable."
+msgstr ""
+
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
+msgstr ""
+
+msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
+msgstr ""
+
+msgid "Your database configuration file is present."
+msgstr ""
+
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
+msgstr ""
+
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+msgid "Editing this Page"
+msgstr ""
+
+msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+msgid "Getting Started"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+msgid "More about Cake"
+msgstr ""
+
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+msgid "Cake Software Foundation"
+msgstr ""
+
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+msgid "The Rapid Development Framework"
+msgstr ""
+
+msgid "CakePHP Documentation"
+msgstr ""
+
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+msgid "CakePHP API"
+msgstr ""
+
+msgid "Quick Reference"
+msgstr ""
+
+msgid "The Bakery"
+msgstr ""
+
+msgid "Everything CakePHP"
+msgstr ""
+
+msgid "The Show"
+msgstr ""
+
+msgid "The Show is a live and archived internet radio broadcast CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
+msgstr ""
+
+msgid "CakePHP Google Group"
+msgstr ""
+
+msgid "Community mailing list"
+msgstr ""
+
+msgid "Live chat about CakePHP"
+msgstr ""
+
+msgid "CakePHP Code"
+msgstr ""
+
+msgid "For the Development of CakePHP Git repository, Downloads"
+msgstr ""
+
+msgid "CakePHP Lighthouse"
+msgstr ""
+
+msgid "CakePHP Tickets, Wiki pages, Roadmap"
+msgstr ""
+
+msgid "Validation Error: isListLanguageISO"
+msgstr "言語コード(ISO)が不正です"
+
+msgid "Title Alternative"
+msgstr "異なり論文タイトル"
+
+msgid "Contributor Author"
+msgstr "著者名"
+
+msgid "Creator Alternative"
+msgstr "異なり著者名"
+
+msgid "Creator Transcription"
+msgstr "著者名ヨミ"
+
+msgid "Contributor Affiliation"
+msgstr "著者所属"
+
+msgid "Date Issued"
+msgstr "発行日"
+
+msgid "Identifier Citation"
+msgstr "掲載情報"
+
+msgid "Identifier Title"
+msgstr "掲載誌"
+
+msgid "Identifier Volume"
+msgstr "掲載誌巻"
+
+msgid "Identifier Number"
+msgstr "掲載誌号"
+
+msgid "Identifier Spage"
+msgstr "論文開始ページ"
+
+msgid "Identifier Epage"
+msgstr "論文終了ページ"
+
+msgid "Identifier Isbn"
+msgstr "ISBN"
+
+msgid "Identifier Issn"
+msgstr "ISSN"
+
+msgid "Description Abstract"
+msgstr "抄録"
+
+msgid "Subject"
+msgstr "キーワード"
+
+msgid "Description"
+msgstr "内容記述"
+
+msgid "Description Tableofcontents"
+msgstr "目次"
+
+msgid "Identifier Doi"
+msgstr "DOI"
+
+msgid "Rights"
+msgstr "権利関係"
+
+msgid "Rights Uri"
+msgstr "権利関係URL"
+
+msgid "Language Iso"
+msgstr "言語コード(ISO)"
+
+msgid "Language Iso639 2"
+msgstr "言語コード(ISO639-2)"
+
+msgid "Publisher Alternative"
+msgstr "異なり出版社"
+
+msgid "Relation Uri"
+msgstr "関連URL"
+
+msgid "Type Nii"
+msgstr "NIIタイプ"
+
+msgid "Peerreviewed"
+msgstr "査読有無"
+
+msgid "Textversion"
+msgstr "著者版・出版社版"
+
+msgid "Publicationstatus"
+msgstr "出版状況"
+
+msgid "Identifier Ncid"
+msgstr "NCID"
+
+msgid "Identifier Pmid"
+msgstr "PubMedID"
+
+msgid "Local"
+msgstr "備考"
+
+msgid "Source"
+msgstr "データソース"
+
+msgid "Publisher Policy Type"
+msgstr "著者版/出版社版(DB)"
+
+msgid "Publisher Source Uri"
+msgstr "URL(DB)"
+
+msgid "Publisher Policy Info"
+msgstr "出版社ポリシー情報"
+
+msgid "Publisher Embargo Close Action"
+msgstr "エンバーゴ満了後の対応"
+
+msgid "Publisher Other"
+msgstr "その他"
+
+msgid "Publisher Source"
+msgstr "参照ポリシーDB"
+
+msgid "Author Id"
+msgstr "著者識別ID"
+
+msgid "Author Request Method"
+msgstr "著者_許諾依頼手段"
+
+msgid "Author Coauthor Flg"
+msgstr "共著者管理の有無"
+
+msgid "Author Remarks"
+msgstr "著者_備考"
+
+msgid "Publisher Status Id"
+msgstr "出版社ステータス"
+
+msgid "Author Status Id"
+msgstr "著者ステータス"
+
+msgid "Coauthor Status Id"
+msgstr "共著者ステータス"
+
+msgid "Export Articles"
+msgstr "案件エクスポート"
+
+msgid "Publisher Policy Type Publisher"
+msgstr "出版社版"
+
+msgid "Publisher Policy Type Author"
+msgstr "著者版"
+
+msgid "Publisher Policy Type Preprint"
+msgstr "プレプリント"
+
+msgid "Publisher Policy Type Disabled"
+msgstr "不可"
+
+msgid "Publisher Policy Type Unclear"
+msgstr "不明"
+
+msgid "Body Top"
+msgstr "本文上部"
+
+msgid "Body Bottom"
+msgstr "本文下部"
+
+msgid "Author Url Flg"
+msgstr "著者許諾用URL表示"
+
+msgid "Document Templates"
+msgstr "文書テンプレート"
+
+msgid "Policy Type"
+msgstr "著者版/出版社版"
+
+msgid "List Journals"
+msgstr "雑誌一覧"
+
+msgid "Add Journal"
+msgstr "雑誌新規登録"
+
+msgid "List Users"
+msgstr "ユーザ管理"
+
+msgid "Source Uri"
+msgstr ""
+
+msgid "List Articles"
+msgstr "案件管理"
+
+msgid "Add Articles"
+msgstr ""
+
+msgid "List Statuses"
+msgstr "案件ステータス一覧"
+
+msgid "Add AuthorStatues"
+msgstr "著者ステータス新規登録"
+
+msgid "Add CoauthorStatues"
+msgstr "共著者ステータス新規登録"
+
+msgid "Add PublisherStatues"
+msgstr "出版社ステータス新規登録"
+
+msgid "Article Status Type Author"
+msgstr "主著者ステータス"
+
+msgid "Article Status Type Publisher"
+msgstr "出版社ステータス"
+
+msgid "Article Status Type Other"
+msgstr "その他ステータス"
+
+msgid "Article Status Contact"
+msgstr "著者連絡先調査中"
+
+msgid "Article Status Request"
+msgstr "著者許諾依頼中"
+
+msgid "Article Status Publisher Check"
+msgstr "出版社著作権ポリシー確認中"
+
+msgid "Article Status Publisher Contact"
+msgstr "出版社連絡先調査中"
+
+msgid "Article Status Publisher Request"
+msgstr "出版社許諾依頼中"
+
+msgid "Article Status Wait"
+msgstr "本文提供待ち"
+
+msgid "Article Status Digitize"
+msgstr "電子化待ち"
+
+msgid "Article Status Openned"
+msgstr "公開済"
+
+msgid "Invalid Snapshot Date"
+msgstr "指定日付が不正です"
+
+msgid "The statuses has been changed"
+msgstr "ステータスを変更しました"
+
+msgid "The article has been saved"
+msgstr "案件を登録しました"
+
+msgid "Article deleted"
+msgstr "案件を削除しました"
+
+msgid "The journal has been saved"
+msgstr "雑誌を登録しました"
+
+msgid "Journal saved"
+msgstr "雑誌を登録しました"
+
+msgid "Journal deleted"
+msgstr "雑誌を削除しました"
+
+msgid "The publisher has been saved"
+msgstr "出版社/学協会を登録しました"
+
+msgid "Publisher saved"
+msgstr "出版社/学協会を登録しました"
+
+msgid "Publisher deleted"
+msgstr "出版社/学協会を削除しました"
+
+msgid "The setting has been saved"
+msgstr "設定を更新しました"
+
+msgid "Meta Settings"
+msgstr "メタデータ表示設定"
+
+msgid "Status Limit Settings"
+msgstr "処理状態経過時間設定"
+
+msgid "The user has been saved"
+msgstr "ユーザを登録しました"
+
+msgid "User saved"
+msgstr "ユーザを登録しました"
+
+msgid "User deleted"
+msgstr "ユーザを削除しました"
+
+msgid "Validation Error: isUniqueUsername"
+msgstr "ログインIDが他のユーザと重複しています"
+
+msgid "Validation Error: Numeric"
+msgstr "数値を入力してください"
+
+msgid "Validation Error: Boolean"
+msgstr "正しく入力してください"
+
+msgid "Validation Error: Date"
+msgstr "日付を正しく入力してください"
+
+msgid "You need to confirm to delete"
+msgstr "確認チェックを入れてください"
+
+msgid "No changed statuses"
+msgstr "ステータス変更していません。入力項目が足りない可能性があります"
+
+msgid "CakePHP Environment"
+msgstr ""
+
+msgid "Could not find template for %s"
+msgstr ""
+
+msgid "AppTestCase::load() - no variable $config found in %s.php"
+msgstr ""
+
+msgid "Change Status"
+msgstr "一括変更"
+
+msgid "No Change"
+msgstr "変更なし"
+
+msgid "Status Change Check"
+msgstr "一括ステータス変更"
+
+msgid "Article Title"
+msgstr "著書(論文)名"
+
+msgid "Article Contributor Author"
+msgstr "主著者名"
+
+msgid "Article Created"
+msgstr "主著者ステータス初回登録日"
+
+msgid "Last Author Status User Name"
+msgstr "変更者名"
+
+msgid "Last Publisher Status User Name"
+msgstr "変更者名"
+
+msgid "Meta"
+msgstr "メタデータ"
+
+msgid "Other Status"
+msgstr "その他ステータス"
+
+msgid "Other Status Coauthor Name"
+msgstr "著者名"
+
+msgid "Add Article"
+msgstr "案件新規登録"
+
+msgid "List Status Histories"
+msgstr "履歴"
+
+msgid "Template Agreement"
+msgstr "許諾書"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Edit Article"
+msgstr "案件編集"
+
+msgid "New Article"
+msgstr "案件新規登録"
+
+msgid "Keyword"
+msgstr "キーワード"
+
+msgid "Status Limit Over"
+msgstr "経過時間超過のみ"
+
+msgid "CSV Export"
+msgstr "CSVエクスポート"
+
+msgid "Snapshot"
+msgstr "スナップショット"
+
+msgid "Template Mail"
+msgstr "出版社問い合わせメール（日本語）"
+
+msgid "Template Mail En"
+msgstr "出版社問い合わせメール（英語）"
+
+msgid "Articles::Snapshot"
+msgstr "案件[スナップショット]"
+
+msgid "List Publishers"
+msgstr "出版社/学協会管理"
+
+msgid "Publisher Id"
+msgstr "出版社/学協会"
+
+msgid "Journal Remarks"
+msgstr "備考(依頼手段)"
+
+msgid "Policy Url"
+msgstr "公開規則URL"
+
+msgid "Url"
+msgstr "WebサイトURL"
+
+msgid "Publisher Name"
+msgstr "出版社/学協会名"
+
+msgid "Edit Journal"
+msgstr "雑誌編集"
+
+msgid "Zip"
+msgstr "郵便番号"
+
+msgid "Address"
+msgstr "住所"
+
+msgid "Tel No"
+msgstr "電話番号"
+
+msgid "Fax No"
+msgstr "FAX番号"
+
+msgid "Email"
+msgstr "メールアドレス"
+
+msgid "Request Method"
+msgstr "依頼手段"
+
+msgid "Department"
+msgstr "担当部署"
+
+msgid "Person Name"
+msgstr "担当者名"
+
+msgid "Memo"
+msgstr "メモ"
+
+msgid "Add Publisher"
+msgstr "出版社/学協会新規登録"
+
+msgid "Edit Publisher"
+msgstr "編集"
+
+msgid "Publishers"
+msgstr "出版社/学協会管理"
+
+msgid "New Publisher"
+msgstr "出版社/学協会新規登録"
+
+msgid "View Publisher"
+msgstr "出版社/学協会詳細"
+
+msgid "Delete Publisher"
+msgstr "削除"
+
+msgid "Searchkeys"
+msgstr ""
+
+msgid "previous"
+msgstr ""
+
+msgid "next"
+msgstr ""
+
+msgid "New Searchkey"
+msgstr ""
+
+msgid "Add Searchkey"
+msgstr ""
+
+msgid "List Searchkeys"
+msgstr ""
+
+msgid "Edit Searchkey"
+msgstr ""
+
+msgid "Datas"
+msgstr ""
+
+msgid "Society"
+msgstr ""
+
+msgid "言語"
+msgstr ""
+
+msgid "発行元学協会"
+msgstr ""
+
+msgid "備考"
+msgstr ""
+
+msgid "dateupdated"
+msgstr ""
+
+msgid "公開規則URL"
+msgstr ""
+
+msgid "List journalss"
+msgstr ""
+
+msgid "alias"
+msgstr ""
+
+msgid "研究分野"
+msgstr ""
+
+msgid "homeurl"
+msgstr ""
+
+msgid "List publisherss"
+msgstr ""
+
+msgid "Searchkey"
+msgstr ""
+
+msgid "Search Target"
+msgstr ""
+
+msgid "Society Field"
+msgstr ""
+
+msgid "Allow Publisher Ver"
+msgstr ""
+
+msgid "Allow Website"
+msgstr ""
+
+msgid "Allow Repositry"
+msgstr ""
+
+msgid "Allow Aid"
+msgstr ""
+
+msgid "Allow Archive"
+msgstr ""
+
+msgid "Need Copyright"
+msgstr ""
+
+msgid "Need Source"
+msgstr ""
+
+msgid "Need Restrict"
+msgstr ""
+
+msgid "Need Link"
+msgstr ""
+
+msgid "Need Embargo"
+msgstr ""
+
+msgid "Need Inquiry"
+msgstr ""
+
+msgid "Need Inform"
+msgstr ""
+
+msgid "Delete Searchkey"
+msgstr ""
+
+msgid "Enable"
+msgstr "使用する"
+
+msgid "Disable"
+msgstr "使用しない"
+
+msgid "File Name"
+msgstr "file name"
+
+msgid "Coverage Spatial"
+msgstr "coverage.spatial"
+
+msgid "Coverage Temporal"
+msgstr "coverage.temporal"
+
+msgid "Status Set Settings"
+msgstr "処理状態経過時間設定"
+
+msgid "days"
+msgstr "日後"
+
+msgid "Add Status History"
+msgstr ""
+
+msgid "New User"
+msgstr "ユーザ新規登録"
+
+msgid "Edit Status History"
+msgstr ""
+
+msgid "Status Histories"
+msgstr "ステータス変更履歴"
+
+msgid "Status History Created"
+msgstr "変更日時"
+
+msgid "Status History"
+msgstr ""
+
+msgid "Coauthor Name"
+msgstr ""
+
+msgid "Delete Status History"
+msgstr ""
+
+msgid "New Status History"
+msgstr ""
+
+msgid "User Created"
+msgstr ""
+
+msgid "Not Found Data."
+msgstr ""
+
+msgid "Parameter Invalid."
+msgstr ""
+
+msgid "Invalid setting for key: Use iso, name, iso3, numcode or printableName."
+msgstr ""
+
+msgid "Afghanistan"
+msgstr ""
+
+msgid "Albania"
+msgstr ""
+
+msgid "Algeria"
+msgstr ""
+
+msgid "American Samoa"
+msgstr ""
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr ""
+
+msgid "Antigua and Barbuda"
+msgstr ""
+
+msgid "Argentina"
+msgstr ""
+
+msgid "Armenia"
+msgstr ""
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Austria"
+msgstr ""
+
+msgid "Azerbaijan"
+msgstr ""
+
+msgid "Bahamas"
+msgstr ""
+
+msgid "Bahrain"
+msgstr ""
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr ""
+
+msgid "Belgium"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr ""
+
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr ""
+
+msgid "Brazil"
+msgstr ""
+
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+msgid "Brunei Darussalam"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr ""
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr ""
+
+msgid "Cameroon"
+msgstr ""
+
+msgid "Canada"
+msgstr ""
+
+msgid "Cape Verde"
+msgstr ""
+
+msgid "Cayman Islands"
+msgstr ""
+
+msgid "Central African Republic"
+msgstr ""
+
+msgid "Chad"
+msgstr ""
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr ""
+
+msgid "Christmas Island"
+msgstr ""
+
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+msgid "Colombia"
+msgstr ""
+
+msgid "Comoros"
+msgstr ""
+
+msgid "Congo"
+msgstr ""
+
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+msgid "Cook Islands"
+msgstr ""
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Cote D'Ivoire"
+msgstr ""
+
+msgid "Croatia"
+msgstr ""
+
+msgid "Cuba"
+msgstr ""
+
+msgid "Cyprus"
+msgstr ""
+
+msgid "Czech Republic"
+msgstr ""
+
+msgid "Denmark"
+msgstr ""
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr ""
+
+msgid "Dominican Republic"
+msgstr ""
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr ""
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr ""
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr ""
+
+msgid "Ethiopia"
+msgstr ""
+
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+msgid "Faroe Islands"
+msgstr ""
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr ""
+
+msgid "France"
+msgstr ""
+
+msgid "French Guiana"
+msgstr ""
+
+msgid "French Polynesia"
+msgstr ""
+
+msgid "French Southern Territories"
+msgstr ""
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr ""
+
+msgid "Germany"
+msgstr ""
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr ""
+
+msgid "Greenland"
+msgstr ""
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr ""
+
+msgid "Iceland"
+msgstr ""
+
+msgid "India"
+msgstr ""
+
+msgid "Indonesia"
+msgstr ""
+
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+msgid "Iraq"
+msgstr ""
+
+msgid "Ireland"
+msgstr ""
+
+msgid "Israel"
+msgstr ""
+
+msgid "Italy"
+msgstr ""
+
+msgid "Jamaica"
+msgstr ""
+
+msgid "Japan"
+msgstr ""
+
+msgid "Jordan"
+msgstr ""
+
+msgid "Kazakhstan"
+msgstr ""
+
+msgid "Kenya"
+msgstr ""
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+msgid "Korea, Republic of"
+msgstr ""
+
+msgid "Kuwait"
+msgstr ""
+
+msgid "Kyrgyzstan"
+msgstr ""
+
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+msgid "Latvia"
+msgstr ""
+
+msgid "Lebanon"
+msgstr ""
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr ""
+
+msgid "Luxembourg"
+msgstr ""
+
+msgid "Macao"
+msgstr ""
+
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+msgid "Madagascar"
+msgstr ""
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr ""
+
+msgid "Maldives"
+msgstr ""
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr ""
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr ""
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr ""
+
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+msgid "Moldova, Republic of"
+msgstr ""
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr ""
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr ""
+
+msgid "Mozambique"
+msgstr ""
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr ""
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr ""
+
+msgid "Netherlands Antilles"
+msgstr ""
+
+msgid "New Caledonia"
+msgstr ""
+
+msgid "New Zealand"
+msgstr ""
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr ""
+
+msgid "Northern Mariana Islands"
+msgstr ""
+
+msgid "Norway"
+msgstr ""
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palau"
+msgstr ""
+
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr ""
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr ""
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr ""
+
+msgid "Portugal"
+msgstr ""
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Reunion"
+msgstr ""
+
+msgid "Romania"
+msgstr ""
+
+msgid "Russian Federation"
+msgstr ""
+
+msgid "Rwanda"
+msgstr ""
+
+msgid "Saint Helena"
+msgstr ""
+
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+msgid "Samoa"
+msgstr ""
+
+msgid "San Marino"
+msgstr ""
+
+msgid "Sao Tome and Principe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr ""
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia and Montenegro"
+msgstr ""
+
+msgid "Seychelles"
+msgstr ""
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr ""
+
+msgid "Slovenia"
+msgstr ""
+
+msgid "Solomon Islands"
+msgstr ""
+
+msgid "Somalia"
+msgstr ""
+
+msgid "South Africa"
+msgstr ""
+
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr ""
+
+msgid "Suriname"
+msgstr ""
+
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+msgid "Swaziland"
+msgstr ""
+
+msgid "Sweden"
+msgstr ""
+
+msgid "Switzerland"
+msgstr ""
+
+msgid "Syrian Arab Republic"
+msgstr ""
+
+msgid "Taiwan, Province of China"
+msgstr ""
+
+msgid "Tajikistan"
+msgstr ""
+
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+msgid "Thailand"
+msgstr ""
+
+msgid "Timor-Leste"
+msgstr ""
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad and Tobago"
+msgstr ""
+
+msgid "Tunisia"
+msgstr ""
+
+msgid "Turkey"
+msgstr ""
+
+msgid "Turkmenistan"
+msgstr ""
+
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr ""
+
+msgid "United Arab Emirates"
+msgstr ""
+
+msgid "United Kingdom"
+msgstr ""
+
+msgid "United States"
+msgstr ""
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr ""
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Viet Nam"
+msgstr ""
+
+msgid "Virgin Islands, British"
+msgstr ""
+
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+msgid "Wallis and Futuna"
+msgstr ""
+
+msgid "Western Sahara"
+msgstr ""
+
+msgid "Yemen"
+msgstr ""
+
+msgid "Zambia"
+msgstr ""
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "Invalid argument #1: %s is not a valid %s identifyer."
+msgstr ""
+
+msgid "You have to confirm."
+msgstr ""
+
+msgid "Delete User"
+msgstr "削除"
+
+msgid "Continue"
+msgstr ""
+
+msgid "Invalid Status History"
+msgstr ""
+
+msgid "Invalid Journal"
+msgstr ""
+
+msgid "Could not save the publisher, please check your inputs."
+msgstr ""
+
+msgid "Invalid Publisher"
+msgstr ""
+
+msgid "You need to confirm to delete this Publisher"
+msgstr ""
+
+msgid "Could not save the user, please check your inputs."
+msgstr ""
+
+msgid "Invalid User"
+msgstr ""
+
+msgid "You need to confirm to delete this User"
+msgstr ""
+
+msgid "Delete Journal"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Undisplay"
+msgstr ""
+
+msgid "Use"
+msgstr ""
+
+msgid "Unuse"
+msgstr ""
+
+msgid "Invalid Article"
+msgstr ""
+
+msgid "'Could not save, please check your inputs.'"
+msgstr "登録できませんでした。入力項目を確認してください"
+
+msgid "You need to confirm to delete this Journal"
+msgstr ""
+
+msgid "New Journal"
+msgstr ""
+
+msgid "Coauthor Name %s"
+msgstr "共著者名%s"
+
+msgid "Coauthor Id %s"
+msgstr "共著者%s_識別ID"
+
+msgid "Coauthor Policy %s"
+msgstr "共著者%s_許諾結果"
+
+msgid "Coauthor Request Method %s"
+msgstr "共著者%s_許諾依頼手段"
+
+msgid "Coauthor Contact Info %s"
+msgstr "共著者%s_連絡先"
+
+msgid "Coauthor Remarks %s"
+msgstr "共著者%s_備考"
+
+msgid "Btn Display Type"
+msgstr "ボタン表示設定"
