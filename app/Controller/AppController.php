@@ -59,7 +59,6 @@ class AppController extends Controller {
         'Escape.Escape' => array('formDataEscape' => false),
         'Search.Prg',
         'DebugKit.Toolbar',
-        'DebugMemo.Memobar',
     );
 
     public $helpers = array(
