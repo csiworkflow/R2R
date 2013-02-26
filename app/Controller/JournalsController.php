@@ -135,15 +135,15 @@ class JournalsController extends RoutineController {
             foreach ($header as $key => $value) {
                 switch($key) {
                     case 'publisher_policy':
-                        $lineArray[] = empty($journal['Journal']['publisher_policy']) ? '' : $policy_colors[$journal['Journal']['publisher_policy']];
+                        $lineArray[] = empty($policy_colors[$journal['Journal']['publisher_policy']]) ? '' : $policy_colors[$journal['Journal']['publisher_policy']];
                         continue 2;
                         break;
                     case 'publisher_request_method':
-                        $lineArray[] = empty($journal['Journal']['publisher_request_method']) ? '' : $request_methods[$journal['Journal']['publisher_request_method']];
+                        $lineArray[] = empty($request_methods[$journal['Journal']['publisher_request_method']]) ? '' : $request_methods[$journal['Journal']['publisher_request_method']];
                         continue 2;
                         break;
                     case 'publisher_open_file_version':
-                        $lineArray[] = empty($journal['Journal']['publisher_open_file_version']) ? '' : $publisher_open_file_versions[$journal['Journal']['publisher_open_file_version']];
+                        $lineArray[] = empty($publisher_open_file_versions[$journal['Journal']['publisher_open_file_version']]) ? '' : $publisher_open_file_versions[$journal['Journal']['publisher_open_file_version']];
                         continue 2;
                         break;
                 }
