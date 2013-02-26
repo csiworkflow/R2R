@@ -332,6 +332,7 @@ class ArticlesController extends RoutineController {
                 'author_request_methods' => $request_methods,
                 'coauthor_request_methods' => $request_methods,
                 'coauthor_flgs' => Configure::read('Article.coauthor_flgs'),
+                'author_coauthor_flgs' => Configure::read('Article.author_coauthor_flgs'),
                 'author_statuses' => $this->AuthorStatus->find('list'),
                 'publisher_statuses' => $this->PublisherStatus->find('list'),
                 'coauthor_statuses' => $this->CoauthorStatus->find('list'),

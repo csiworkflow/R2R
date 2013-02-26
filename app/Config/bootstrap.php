@@ -428,6 +428,12 @@ Configure::write('Article.textversions', array(
         ARTICLE_TEXT_VERSION_NONE => ARTICLE_TEXT_VERSION_NONE,
     ));
 
+// author_coauthor_flg
+Configure::write('Article.author_coauthor_flgs', array(
+        true => __('Coauthor Flg Enable'),
+        false => __('Coauthor Flg Disable'),
+    ));
+
 // 公開可能バージョン publisher_open_file_version
 define('PUBLISHER_OPEN_FILE_VERSION_PUBLISHER', 'publisher');
 define('PUBLISHER_OPEN_FILE_VERSION_AUTHOR', 'author');

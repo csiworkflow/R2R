@@ -207,6 +207,7 @@
                 <?php if (in_array($fieldName, array(
                   'author_policy',
                   'author_request_method',
+                  'author_coauthor_flg',
                   ))): ?>
                 <?php // select ?>
                 <?php if($this->action === 'view'): ?>
