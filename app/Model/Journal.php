@@ -50,6 +50,7 @@ class Journal extends RoutineModel {
         $fields = array(
             'title',
             'publisher',
+            'issn',
         );
         $conditions = array('OR' => array());
         foreach ($fields as $field) {

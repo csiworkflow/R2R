@@ -10,7 +10,7 @@
       'action' => 'index',
       'class' => 'form-search',
       'inputDefaults' => array('label' => false, 'div' => false))); ?>
-    <?php echo $this->Form->input('keyword', array('type' => 'text', 'placeholder' => '雑誌名, 出版社名')); ?>
+    <?php echo $this->Form->input('keyword', array('type' => 'text', 'placeholder' => '雑誌名, 出版社名、ISSN')); ?>
     <?php echo $this->Form->input('publisher_policy', array('type' => 'select', 'options' => $policy_colors, 'empty' => true)); ?>
     <?php echo $this->Form->submit(__('Search'), array('div' => false)); ?>
     <?php echo $this->Form->end(); ?>
