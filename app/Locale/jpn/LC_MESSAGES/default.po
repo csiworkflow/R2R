@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-22 16:20+0900\n"
-"PO-Revision-Date: 2013-02-22 18:52+0900\n"
+"POT-Creation-Date: 2013-02-26 10:41+0900\n"
+"PO-Revision-Date: 2013-02-26 10:42+0900\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -154,7 +154,7 @@ msgid "The %s has been uploaded"
 msgstr "%sをアップロードしました"
 
 #: Controller/ArticlesController.php:207
-#: View/Articles/_form.ctp:307
+#: View/Articles/_form.ctp:312
 #: View/Articles/register_ok_and_upload.ctp:16
 #: View/Articles/upload.ctp:11
 msgid "File"
@@ -232,7 +232,7 @@ msgstr "検索で案件を絞り込んでください"
 #: Plugin/BulkStatusChange/View/Elements/menu.ctp:10
 #: View/ArticleHistories/_form.ctp:298
 #: View/ArticleHistories/index.ctp:22
-#: View/Articles/_form.ctp:322
+#: View/Articles/_form.ctp:327
 #: View/Articles/index.ctp:24;129
 #: View/AuthorStatuses/add.ctp:6
 #: View/AuthorStatuses/edit.ctp:6
@@ -243,7 +243,7 @@ msgstr "著者ステータス"
 #: Plugin/BulkStatusChange/View/Elements/menu.ctp:16
 #: View/ArticleHistories/_form.ctp:301
 #: View/ArticleHistories/index.ctp:23
-#: View/Articles/_form.ctp:325
+#: View/Articles/_form.ctp:330
 #: View/Articles/index.ctp:32;130
 #: View/AuthorStatuses/index.ctp:39;65
 #: View/PublisherStatuses/add.ctp:6
@@ -254,7 +254,7 @@ msgstr "出版社ステータス"
 #: Plugin/BulkStatusChange/View/Elements/menu.ctp:22
 #: View/ArticleHistories/_form.ctp:304
 #: View/ArticleHistories/index.ctp:24
-#: View/Articles/_form.ctp:328
+#: View/Articles/_form.ctp:333
 #: View/Articles/index.ctp:40;131
 #: View/AuthorStatuses/index.ctp:71;96
 #: View/CoauthorStatuses/add.ctp:6
@@ -308,7 +308,7 @@ msgstr "入力項目を確認してください"
 #: Plugin/ExportDefault/Controller/ExportDefaultsController.php:63
 #: View/ArticleHistories/_form.ctp:281;285
 #: View/ArticleHistories/index.ctp:26
-#: View/Articles/_form.ctp:302
+#: View/Articles/_form.ctp:307
 #: View/Articles/index.ctp:56;135
 msgid "File Status"
 msgstr "本文アップロード状況"
@@ -580,7 +580,7 @@ msgid "Option"
 msgstr "付随情報"
 
 #: View/ArticleHistories/_form.ctp:293
-#: View/Articles/_form.ctp:317
+#: View/Articles/_form.ctp:322
 msgid "Status"
 msgstr "ステータス"
 
@@ -690,7 +690,7 @@ msgid "Edit %s"
 msgstr "%s編集"
 
 #: View/ArticleHistories/edit.ctp:113
-#: View/Articles/index.ctp:184
+#: View/Articles/index.ctp:192
 #: View/AuthorStatuses/index.ctp:27;59;90
 #: View/CoauthorStatuses/index.ctp:34
 #: View/DocumentTemplates/index.ctp:32
@@ -703,7 +703,7 @@ msgid "Delete"
 msgstr "削除"
 
 #: View/ArticleHistories/edit.ctp:113
-#: View/Articles/index.ctp:184
+#: View/Articles/index.ctp:192
 #: View/AuthorStatuses/index.ctp:27;59;90
 #: View/AuthorStatuses/view.ctp:52
 #: View/CoauthorStatuses/index.ctp:34
@@ -751,10 +751,22 @@ msgstr "ユーザ"
 msgid "Required"
 msgstr "必須"
 
-#: View/Articles/_form.ctp:168
-#: View/Articles/index.ctp:194
+#: View/Articles/_form.ctp:95
+msgid "Publisher Info"
+msgstr "出版社情報"
+
+#: View/Articles/_form.ctp:169
+#: View/Articles/index.ctp:202
 msgid "Link"
-msgstr ""
+msgstr "リンク"
+
+#: View/Articles/_form.ctp:187
+msgid "Author Info"
+msgstr "著者情報"
+
+#: View/Articles/_form.ctp:247
+msgid "Coauthor Info"
+msgstr "共著者情報"
 
 #: View/Articles/add.ctp:2
 #: View/Articles/edit.ctp:9
@@ -771,7 +783,7 @@ msgid "View"
 msgstr "詳細"
 
 #: View/Articles/edit.ctp:5;23
-#: View/Articles/index.ctp:186
+#: View/Articles/index.ctp:194
 #: View/Articles/view.ctp:4;43
 #: View/DocumentTemplates/edit.ctp:4
 #: View/DocumentTemplates/index.ctp:3
@@ -823,11 +835,11 @@ msgstr "本文アップロード済み"
 msgid "Open And Embargo Complete"
 msgstr "エンバーゴ期間満了"
 
-#: View/Articles/index.ctp:175;179
+#: View/Articles/index.ctp:183;187
 msgid "Action"
 msgstr "操作"
 
-#: View/Articles/index.ctp:182
+#: View/Articles/index.ctp:190
 #: View/Articles/view.ctp:3
 #: View/AuthorStatuses/index.ctp:26;58;89
 #: View/CoauthorStatuses/index.ctp:33
@@ -838,12 +850,12 @@ msgstr "操作"
 msgid "Edit"
 msgstr "編集"
 
-#: View/Articles/index.ctp:183
+#: View/Articles/index.ctp:191
 #: View/Articles/upload.ctp:1
 msgid "Upload Files"
 msgstr "本文ファイルアップロード"
 
-#: View/Articles/index.ctp:193
+#: View/Articles/index.ctp:201
 msgid "Aurhor Register URL"
 msgstr "著者許諾確認用URL"
 
@@ -1138,31 +1150,31 @@ msgid "Page Contents"
 msgstr ""
 
 #: View/PageContents/btn_label.ctp:2
-#: View/PageContents/index.ctp:9
+#: View/PageContents/index.ctp:8
 msgid "Button Labels"
 msgstr "ボタン設定"
 
-#: View/PageContents/index.ctp:10
+#: View/PageContents/index.ctp:9
 #: View/PageContents/register.ctp:2
 msgid "Register Page"
 msgstr "許諾ページ"
 
-#: View/PageContents/index.ctp:11
+#: View/PageContents/index.ctp:10
 #: View/PageContents/upload.ctp:2
 msgid "Register Upload Page"
 msgstr "本文アップロードページ"
 
-#: View/PageContents/index.ctp:12
+#: View/PageContents/index.ctp:11
 #: View/PageContents/upload_complete.ctp:2
 msgid "Register Upload Complete Page"
 msgstr "本文アップロード完了ページ"
 
-#: View/PageContents/index.ctp:13
+#: View/PageContents/index.ctp:12
 #: View/PageContents/ok_complete.ctp:2
 msgid "Register OK Complete Page"
 msgstr "許諾OK(本文アップロードなし)完了ページ"
 
-#: View/PageContents/index.ctp:14
+#: View/PageContents/index.ctp:13
 #: View/PageContents/ng_complete.ctp:2
 msgid "Register NG Complete Page"
 msgstr "許諾NG完了ページ"

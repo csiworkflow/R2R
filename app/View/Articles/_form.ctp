@@ -92,6 +92,7 @@
 </table>
 
 <h3><?php echo __('Option'); ?></h3>
+<h4><?php echo __('Publisher Info') ?></h4>
 
 <table class="table table-bordered table-condensed article-table">
     <tbody>
@@ -183,6 +184,8 @@
     </tbody>
 </table>
 
+<h4><?php echo __('Author Info') ?></h4>
+
 <table class="table table-bordered table-condensed article-table">
     <tbody>
         <?php $fields = array(
@@ -241,9 +244,11 @@
     </tbody>
 </table>
 
+<h4><?php echo __('Coauthor Info') ?></h4>
+
+<?php for($i = 1; $i <= 5; $i++): ?>
 <table class="table table-bordered table-condensed article-table">
     <tbody>
-        <?php for($i = 1; $i <= 5; $i++): ?>
         <?php $fields = array(
           'coauthor_name' . $i,
           'coauthor_id' . $i,
@@ -294,9 +299,9 @@
             </td>
         </tr>
         <?php endforeach; ?>
-        <?php endfor; ?>
     </tbody>
 </table>
+<?php endfor; ?>
 
 <?php if($this->action !== 'add'): ?>
 <h3><?php echo __('File Status'); ?></h3>
