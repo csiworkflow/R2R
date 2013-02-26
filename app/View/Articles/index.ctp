@@ -165,6 +165,14 @@
             <td>
                 <?php if ($article['Article']['file_count'] > 0): ?>
                 <?php echo __('Uploaded'); ?>
+                <div>
+                    <?php for ($i = 1; $i <= 5; $i++): ?>
+                    <?php if ($this->Label->url($article['Article']['file' . $i])): ?>
+                    <a class="tooltip-target" rel="tooltip" data-original-title="<?php echo $article['Article']['file' . $i]['file_name']; ?>" target="_blank" href="<?php echo $this->Label->url($article['Article']['file' . $i]); ?>">
+                    <?php echo $this->Html->image('download.png', array()); ?></a>
+                    <?php endif; ?>
+                    <?php endfor; ?>
+                </div>
                 <?php else:  ?>
                 ---
                 <?php endif; ?>
