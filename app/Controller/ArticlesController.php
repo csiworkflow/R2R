@@ -63,23 +63,6 @@ class ArticlesController extends RoutineController {
         $this->Prg->commonProcess();
         $conditions = $this->Article->parseCriteria($this->passedArgs);
 
-        // 詳細検索エリアの初期表示
-        $hide = true;
-        if (
-            !empty($this->request->data['Article'])
-            &&
-            (
-                !empty($this->request->data['Article']['author_status_id'])
-                || !empty($this->request->data['Article']['publisher_status_id'])
-                || !empty($this->request->data['Article']['coauthor_status_id'])
-                || !empty($this->request->data['Article']['author_policy'])
-                || !empty($this->request->data['Article']['file_status'])
-                || !empty($this->request->data['Article']['publisher_embargo_period_complete'])
-            )
-        ) {
-            $hide = false;
-        }
-
         // デフォルトの条件設定
         if (
             empty($conditions['Article.author_status_id'])
@@ -126,7 +109,6 @@ class ArticlesController extends RoutineController {
 
         $this->set(array(
                 'articles' => $this->Paginator->paginate($conditions),
-                'hide' => $hide
             ));
     }
 

@@ -12,8 +12,7 @@
           'inputDefaults' => array('label' => false, 'div' => false))); ?>
         <?php echo $this->Form->input('keyword', array('type' => 'text', 'placeholder' => 'キーワード')); ?>
         <?php echo $this->Form->submit(__('Search'), array('div' => false, 'class' => 'btn btn-primary')); ?>
-        <a id="btn-article-advanced-search" class="btn tooltip-target" href="#" rel="tooltip" data-original-title="<?php echo __('Advanced Search'); ?>"><?php echo $this->Html->image('advanced.png'); ?></a>
-        <div id="article-advanced-search" class="well well-small well-white <?php echo ($hide) ? 'hide': ''; ?>">
+        <div id="article-advanced-search" class="well well-small well-white">
         <div class="alert">
             ※
             ステータスの指定がない場合はOPEN系のステータスのみが表示されます
