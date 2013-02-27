@@ -115,7 +115,11 @@ class JournalsController extends RoutineController {
         header("Content-Type: text/octet-stream");
         header("Content-Disposition: attachment; filename=journals.csv");
         foreach ($schema as $fieldName => $value) {
-            $header[$fieldName] = __(Inflector::humanize($fieldName));
+            if ($fieldName === 'title') {
+                $header[$fieldName] = __('Journal Title');
+            } else {
+                $header[$fieldName] = __(Inflector::humanize($fieldName));
+            }
         }
         unset($header['delete_flg']);
         unset($header['deleted']);
