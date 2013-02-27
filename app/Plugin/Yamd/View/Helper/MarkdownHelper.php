@@ -1,6 +1,7 @@
 <?php
 App::uses('AppHelper', 'View/Helper');
 App::uses('Folder', 'Utility');
+App::uses('L10n', 'I18n');
 class MarkdownHelper extends AppHelper {
 
     public $helpers = array('Html', 'Form');
@@ -16,6 +17,7 @@ class MarkdownHelper extends AppHelper {
         ),
     );
 
+    public $l10n = null;
     public $cacheConfigName = 'yamd';
 
     public function __construct($View, $options = array()) {
@@ -25,6 +27,7 @@ class MarkdownHelper extends AppHelper {
 
         $obj = new Folder($this->settings['cachePath'], true, 0777);
         Cache::config($this->settings['cacheConfig'], array('engine'=>'File', 'path' => $this->settings['cachePath']));
+        $this->l10n = new L10n();
         parent::__construct($View, $options);
     }
 
@@ -42,21 +45,40 @@ class MarkdownHelper extends AppHelper {
      */
     public function loadFile($markdownFile, $viewVars = array()){
         $exts = $this->_getExtensions();
-        if (Configure::read('debug') == 0 && Cache::read($markdownFile, $this->settings['cacheConfig'])) {
-            return Cache::read($markdownFile, $this->settings['cacheConfig']);
+        $language = Configure::read('Config.language');
+        $catalog = $this->l10n->catalog($language);
+        $lang = $catalog['locale'];
+        $cacheKey = $markdownFile . '.' . $lang;
+
+        if (Configure::read('debug') == 0 && Cache::read($cacheKey, $this->settings['cacheConfig'])) {
+            return Cache::read($cacheKey, $this->settings['cacheConfig']);
         }
         foreach ($exts as $ext) {
-            if (file_exists($this->settings['markdownFilePath'] . $markdownFile . $ext)) {
-                $php = $this->htmlize(file_get_contents($this->settings['markdownFilePath'] . $markdownFile . $ext));
-                file_put_contents($this->settings['tempPath'] . $markdownFile, $php);
-                ob_start();
-                extract($viewVars);
-                include $this->settings['tempPath'] . $markdownFile;
-                $html = ob_get_clean();
-                Cache::write($markdownFile, $html, $this->settings['cacheConfig']);
-                return $html;
+            $filePath = $this->settings['markdownFilePath'] . $lang . DS . $markdownFile . $ext;
+            if (file_exists($filePath)) {
+                return $this->__loadFile($filePath, $cacheKey, $viewVars);
+            }
+            $filePath = $this->settings['markdownFilePath'] . $markdownFile . $ext;
+            if (file_exists($filePath)) {
+                return $this->__loadFile($filePath, $cacheKey, $viewVars);
             }
         }
+    }
+
+    /**
+     * __loadFile
+     *
+     * @param $filePath, $cacheKey
+     */
+    private function __loadFile($filePath, $cacheKey, $viewVars = array()){
+        $php = $this->htmlize(file_get_contents($filePath));
+        file_put_contents($this->settings['tempPath'] . $cacheKey, $php);
+        ob_start();
+        extract($viewVars);
+        include $this->settings['tempPath'] . $cacheKey;
+        $html = ob_get_clean();
+        Cache::write($cacheKey, $html, $this->settings['cacheConfig']);
+        return $html;
     }
 
     protected function _getExtensions() {
