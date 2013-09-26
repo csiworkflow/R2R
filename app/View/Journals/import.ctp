@@ -34,7 +34,11 @@
                         <li><?php echo $value['message']; ?></li>
                         <?php endif; ?>
                         <?php foreach($value['validationErrors'] as $fieldName => $v): ?>
-                        <li>[<?php echo __(Inflector::humanize($fieldName)); ?>] <?php echo $v[0]; ?></li>
+							<?php if ($fieldName === 'title'): ?>
+								<li>[<?php echo __('Journal Title'); ?>] <?php echo $v[0]; ?></li>
+							<?php else: ?>
+								<li>[<?php echo __(Inflector::humanize($fieldName)); ?>] <?php echo $v[0]; ?></li>
+							<?php endif; ?>
                         <?php endforeach; ?>
                     </ul>
                 </td>
