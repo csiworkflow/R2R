@@ -39,7 +39,7 @@
                     </ul>
                 </td>
                 <td>
-                    <?php pr($value['line']); ?>
+					<pre><?php echo $value['line']; ?></pre>
                 </td>
             </tbody>
             <?php endforeach; ?>
